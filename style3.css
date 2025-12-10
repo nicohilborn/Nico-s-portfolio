@@ -22,7 +22,7 @@ header nav a:hover {
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 25px;
-  background-color: rgb(200, 200, 200);
+  background-color: #585858;
   color: black;
   font-size: 25px;
 }
