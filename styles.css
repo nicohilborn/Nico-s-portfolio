@@ -6,7 +6,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
-    margin-top: 80px; /* for fixed header */
+    margin-top: 80px;
     line-height: 1.6;
     background-color: #070c29;
     color: #333;
@@ -29,7 +29,6 @@ header .logo {
     font-size: 1.6rem;
     font-weight: bold;
 }
-
 header nav a {
     color: #ffffff;
     margin-left: 1.5rem;
@@ -37,7 +36,6 @@ header nav a {
     font-weight: 500;
     transition: color 0.3s ease;
 }
-
 header nav a:hover {
     color: #02ccff;
 }
@@ -87,7 +85,6 @@ header nav a:hover {
     color: #ffffff;
     justify-content: center;
 }
-
 .card {
     flex: 1 1 calc(50% - 1.5rem); 
     background: #2222ff;
@@ -97,26 +94,21 @@ header nav a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-
 .card:hover {
     transform: scale(1.05);
     animation: pulse 1s ease infinite alternate;
 }
-
 .card h2 {
     margin-bottom: 0.5rem;
 }
-
 .card p {
     font-size: 0.95rem;
     line-height: 1.4;
 }
-
 a {
     color: #70b8ff;
     text-decoration: none;
 }
-
 footer {
     text-align: center;
     background: #090026;
@@ -136,21 +128,17 @@ h3 {
         flex-direction: column;
         padding: 2rem 1rem;
     }
-
     .card {
         flex: 1 1 calc(50% - 1rem);
     }
 }
-
 @media (max-width: 480px) {
     .card {
         flex: 1 1 100%;
     }
-    
     .main .image img {
         max-width: 150px;
     }
-    
     .main .text {
         font-size: 1rem;
     }
