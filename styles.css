@@ -89,7 +89,7 @@ header nav a:hover {
 }
 
 .card {
-    flex: 1 1 calc(33% - 1rem);
+    flex: 1 1 calc(50% - 1.5rem); 
     background: #2222ff;
     padding: 1.5rem;
     text-align: center;
@@ -115,11 +115,6 @@ header nav a:hover {
 a {
     color: #70b8ff;
     text-decoration: none;
-}
-
-@keyframes pulse {
-    from { background-color: #024eff; }
-    to { background-color: #0011ff; }
 }
 
 footer {
