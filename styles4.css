@@ -77,8 +77,8 @@ header nav a:hover {
 
 #lightbox img,
 #lightbox video {
-    max-width: 90%;
-    max-height: 80%;
+    max-width: 150%;
+    max-height: 150%;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(255,255,255,0.2);
 }
